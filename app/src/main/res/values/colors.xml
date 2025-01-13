@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#FF5722</color>  <!-- Orange -->
+    <color name="colorPrimaryDark">#D32F2F</color>  <!-- Darker Orange -->
+    <color name="colorAccent">#FFC107</color>  <!-- Yellow -->
+
+    <!-- Background and Text Colors -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White -->
+    <color name="textColorPrimary">#212121</color> <!-- Dark Gray -->
+    <color name="textColorSecondary">#757575</color> <!-- Light Gray -->
+
+    <!-- Error Color -->
+    <color name="colorError">#D32F2F</color> <!-- Red -->
+
+    <!-- Menu Item Colors -->
+    <color name="menuItemColor">#4CAF50</color> <!-- Green -->
+    <color name="menuItemColorPressed">#388E3C</color> <!-- Dark Green -->
+
+    <!-- Divider Color -->
+    <color name="dividerColor">#E0E0E0</color> <!-- Light Gray -->
+
+    <!-- Splash Screen Background -->
+    <color name="splash_background">#000000</color> <!-- Black -->
+
+    <!-- App Background Color -->
+    <color name="app_background_color">#F5F5F5</color> <!-- Light Gray Background -->
+
+    <!-- Text Colors -->
+    <color name="primary_text_color">#212121</color>  <!-- Dark Gray for primary text -->
+    <color name="secondary_text_color">#757575</color> <!-- Light Gray for secondary text -->
+
+    <!-- Button Colors -->
+    <color name="button_color">#6200EE</color> <!-- Material Purple -->
+    <color name="button_border_color">#3700B3</color> <!-- Darker Purple for button borders -->
+
+    <!-- Price Text Color -->
+    <color name="price_text_color">#FF5722</color> <!-- Orange for price text -->
+
+    <!-- EditText Background Color -->
+    <color name="edittext_bg_color">#FFFFFF</color> <!-- White EditText background -->
+
+    <!-- Background Color (New) -->
+    <color name="background_color">#F0F0F0</color> <!-- Light gray background for general use -->
+</resources>

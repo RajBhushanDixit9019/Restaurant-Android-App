@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Chef Orders Menu -->
+    <item
+        android:id="@+id/menu_orders"
+        android:title="Orders"
+        android:icon="@drawable/ic_orders"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"/>
+
+    <!-- Chef Profile Menu -->
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"/>
+
+    <!-- Chef Settings Menu -->
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="3"
+        android:showAsAction="never"/>
+</menu>

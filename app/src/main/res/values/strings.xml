@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Restaurant App</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Log In</string>
+
+    <!-- Main Activity -->
+    <string name="main_activity_title">Welcome to the Restaurant App</string>
+
+    <!-- Chef Module -->
+    <string name="chef_module_title">Chef Dashboard</string>
+
+    <!-- Admin Module -->
+    <string name="admin_module_title">Admin Dashboard</string>
+
+    <!-- Splash Screen Logo Description -->
+    <string name="splash_screen_logo_desc">Logo of Restaurant App</string>
+
+    <!-- Customer Module -->
+    <string name="customer_module_title">Customer Dashboard</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_credentials">Invalid username or password</string>
+    <string name="error_connection_failed">Connection failed. Please try again later</string>
+
+    <!-- Success Messages -->
+    <string name="message_logged_in_success">You have successfully logged in!</string>
+
+    <!-- Menu Items -->
+    <string name="menu_item_dashboard">Dashboard</string>
+    <string name="menu_item_inventory">Inventory</string>
+    <string name="menu_item_reports">Reports</string>
+    <string name="menu_item_orders">Orders</string>
+    <string name="menu_item_profile">Profile</string>
+    <string name="menu_item_settings">Settings</string>
+
+    <!-- UI Texts for Buttons -->
+    <string name="btn_view_menu">View Menu</string>
+    <string name="btn_view_order_history">View Order History</string>
+
+    <!-- Titles and Text for Dashboard Sections -->
+    <string name="customer_dashboard_title">Customer Dashboard</string>
+    <string name="chef_dashboard_title">Chef Dashboard</string>
+    <string name="admin_dashboard_title">Admin Dashboard</string>
+
+    <!-- Common Messages -->
+    <string name="message_loading">Loading...</string>
+    <string name="message_error_occurred">An error occurred. Please try again</string>
+
+    <!-- Colors Description (for reference in UI) -->
+    <string name="color_primary_description">Primary color of the app</string>
+    <string name="color_secondary_description">Secondary color for highlights</string>
+    <string name="color_error_description">Color used for error messages</string>
+
+    <!-- Added Username and Password Hint -->
+    <string name="username_hint">Enter your username</string>
+    <string name="password_hint">Enter your password</string>
+</resources>

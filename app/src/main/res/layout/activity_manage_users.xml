@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- Title for the Activity -->
+    <TextView
+        android:id="@+id/txtManageUsersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Users"
+        android:textSize="24sp"
+        android:textColor="@color/primary_text_color"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center"/>
+
+    <!-- Button to add a user -->
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to remove a user -->
+    <Button
+        android:id="@+id/btnRemoveUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove User"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Button to view list of users -->
+    <Button
+        android:id="@+id/btnViewUserList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View User List"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"/>
+</LinearLayout>
