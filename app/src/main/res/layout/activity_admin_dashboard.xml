@@ -6,37 +6,29 @@
     android:padding="16dp"
     android:background="@drawable/layout_background">
 
-    <TextView
-        android:text="Welcome to the Restaurant App"
-        android:textSize="20sp"
-        android:textColor="@android:color/white"
-        android:layout_margin="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
     <Button
-        android:id="@+id/btnCustomer"
+        android:id="@+id/btnManageMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Customer"
+        android:text="Manage Menu"
         android:textColor="@android:color/white"
         android:background="@drawable/btn_background"
         android:layout_marginBottom="16dp" />
 
     <Button
-        android:id="@+id/btnAdmin"
+        android:id="@+id/btnManageUsers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Admin"
+        android:text="Manage Users"
         android:textColor="@android:color/white"
         android:background="@drawable/btn_background"
         android:layout_marginBottom="16dp" />
 
     <Button
-        android:id="@+id/btnChef"
+        android:id="@+id/btnViewReports"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chef"
+        android:text="View Reports"
         android:textColor="@android:color/white"
         android:background="@drawable/btn_background"
         android:layout_marginBottom="16dp" />

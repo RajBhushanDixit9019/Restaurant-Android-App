@@ -1,45 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary Colors -->
-    <color name="colorPrimary">#FF5722</color>  <!-- Orange -->
-    <color name="colorPrimaryDark">#D32F2F</color>  <!-- Darker Orange -->
-    <color name="colorAccent">#FFC107</color>  <!-- Yellow -->
+    <!-- Splash Screen Colors -->
+    <color name="splash_status_bar_color">#000000</color> <!-- Black for status bar -->
+    <color name="splash_text_color">#FFFFFF</color> <!-- White for splash text -->
 
-    <!-- Background and Text Colors -->
-    <color name="backgroundColor">#FFFFFF</color> <!-- White -->
-    <color name="textColorPrimary">#212121</color> <!-- Dark Gray -->
-    <color name="textColorSecondary">#757575</color> <!-- Light Gray -->
+    <!-- Primary and accent colors -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Indigo -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Dark Indigo -->
+    <color name="colorAccent">#FF4081</color> <!-- Pink -->
 
-    <!-- Error Color -->
-    <color name="colorError">#D32F2F</color> <!-- Red -->
-
-    <!-- Menu Item Colors -->
-    <color name="menuItemColor">#4CAF50</color> <!-- Green -->
-    <color name="menuItemColorPressed">#388E3C</color> <!-- Dark Green -->
-
-    <!-- Divider Color -->
-    <color name="dividerColor">#E0E0E0</color> <!-- Light Gray -->
-
-    <!-- Splash Screen Background -->
-    <color name="splash_background">#000000</color> <!-- Black -->
-
-    <!-- App Background Color -->
-    <color name="app_background_color">#F5F5F5</color> <!-- Light Gray Background -->
-
-    <!-- Text Colors -->
-    <color name="primary_text_color">#212121</color>  <!-- Dark Gray for primary text -->
-    <color name="secondary_text_color">#757575</color> <!-- Light Gray for secondary text -->
+    <!-- General App Colors -->
+    <color name="background_color">#F5F5F5</color> <!-- Light Gray -->
+    <color name="stroke_color">#FF5722</color> <!-- Deep Orange -->
+    <color name="button_default_color">#2196F3</color> <!-- Blue -->
+    <color name="button_pressed_color">#1976D2</color> <!-- Darker Blue -->
+    <color name="card_background_color">#FFFFFF</color> <!-- White -->
+    <color name="text_primary">#212121</color> <!-- Dark Gray -->
+    <color name="button_text_color">#FFFFFF</color> <!-- White -->
+    <color name="shadow_color">#55000000</color> <!-- Example: Semi-transparent black -->
 
     <!-- Button Colors -->
-    <color name="button_color">#6200EE</color> <!-- Material Purple -->
-    <color name="button_border_color">#3700B3</color> <!-- Darker Purple for button borders -->
+    <color name="button_gradient_end_color">#1976D2</color>
+    <color name="button_border_color">#1565C0</color>
 
-    <!-- Price Text Color -->
-    <color name="price_text_color">#FF5722</color> <!-- Orange for price text -->
+    <!-- Card Colors -->
+    <color name="card_gradient_start">#FFFFFF</color>
+    <color name="card_gradient_end">#F5F5F5</color>
+    <color name="card_border_color">#E0E0E0</color>
 
-    <!-- EditText Background Color -->
-    <color name="edittext_bg_color">#FFFFFF</color> <!-- White EditText background -->
+    <!-- Input Colors -->
+    <color name="input_background_start">#FFFFFF</color>
+    <color name="input_background_end">#F0F0F0</color>
+    <color name="input_border_color">#BDBDBD</color>
 
-    <!-- Background Color (New) -->
-    <color name="background_color">#F0F0F0</color> <!-- Light gray background for general use -->
+    <!-- Rounded Background Colors -->
+    <color name="rounded_background_start">#F8F9FA</color>
+    <color name="rounded_background_end">#ECEFF1</color>
+    <color name="rounded_border_color">#CFD8DC</color>
+
+    <!-- Background Colors -->
+    <color name="listViewBackground">#FFFFFF</color> <!-- White background for ListViews -->
+    <color name="buttonBackground">#4CAF50</color> <!-- Green background for buttons -->
+
+    <!-- Text Colors -->
+    <color name="textSecondary">#757575</color> <!-- Secondary text color (lighter grey) -->
+
+    <!-- Border Colors -->
+    <color name="borderColor">#BDBDBD</color> <!-- Light grey color for borders -->
+
+    <!-- Error and Warning Colors -->
+    <color name="errorColor">#D32F2F</color> <!-- Red color for error messages -->
+
+    <!-- Status Bar Colors -->
+    <color name="statusBarColor">#388E3C</color> <!-- Dark Green for status bar -->
+
+    <color name="colorTextPrimary">#212121</color> <!-- Dark Gray for primary text color -->
 </resources>

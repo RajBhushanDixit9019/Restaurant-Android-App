@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- Rounded corners -->
+    <corners android:radius="20dp" />
+
+    <!-- Gradient fill -->
+    <gradient
+        android:angle="45"
+        android:startColor="@color/rounded_background_start"
+        android:endColor="@color/rounded_background_end" />
+
+    <!-- Border for a clean edge -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/rounded_border_color" />
+</shape>

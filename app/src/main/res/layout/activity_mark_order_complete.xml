@@ -8,23 +8,23 @@
     android:background="@drawable/bg_main">
 
     <Button
-        android:id="@+id/btnViewUsers"
+        android:id="@+id/btnCompleteOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View Users"
+        android:text="Mark as Complete"
         android:textSize="16sp"
         android:textColor="@color/colorTextPrimary"
         android:background="@drawable/button_bg"
         android:layout_marginBottom="16dp" />
 
-    <Button
-        android:id="@+id/btnDeleteUser"
+    <TextView
+        android:id="@+id/orderStatusText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delete User"
-        android:textSize="16sp"
+        android:text="Order Status: Pending"
+        android:textSize="18sp"
         android:textColor="@color/colorTextPrimary"
-        android:background="@drawable/button_bg"
-        android:layout_marginBottom="16dp" />
-
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center" />
 </LinearLayout>

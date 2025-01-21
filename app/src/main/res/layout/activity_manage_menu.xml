@@ -8,20 +8,30 @@
     android:background="@drawable/bg_main">
 
     <Button
-        android:id="@+id/btnViewUsers"
+        android:id="@+id/btnAddItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View Users"
+        android:text="Add Item"
         android:textSize="16sp"
         android:textColor="@color/colorTextPrimary"
         android:background="@drawable/button_bg"
         android:layout_marginBottom="16dp" />
 
     <Button
-        android:id="@+id/btnDeleteUser"
+        android:id="@+id/btnEditItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delete User"
+        android:text="Edit Item"
+        android:textSize="16sp"
+        android:textColor="@color/colorTextPrimary"
+        android:background="@drawable/button_bg"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnRemoveItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove Item"
         android:textSize="16sp"
         android:textColor="@color/colorTextPrimary"
         android:background="@drawable/button_bg"

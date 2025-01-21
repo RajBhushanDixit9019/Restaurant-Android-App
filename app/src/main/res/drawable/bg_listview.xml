@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white" /> <!-- Background color of the ListView -->
+    <corners android:radius="8dp" /> <!-- Rounded corners -->
+    <stroke
+
+        android:color="@android:color/darker_gray"
+        android:width="0.5dp" /> <!-- Border thickness -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" /> <!-- Padding inside the ListView -->
+</shape>

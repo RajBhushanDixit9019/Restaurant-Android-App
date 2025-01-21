@@ -5,11 +5,12 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:id="@+id/tvReports"
+    <ListView
+        android:id="@+id/lvOrders"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Reports will be displayed here."
-        android:textSize="18sp" />
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:padding="8dp" />
 
 </LinearLayout>
