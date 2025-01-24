@@ -1,5 +1,6 @@
 package com.example.restaurantapp.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -14,7 +15,7 @@ import com.example.restaurantapp.R;
 public class CustomerRegistrationActivity extends AppCompatActivity {
 
     private EditText edtName, edtEmail, edtPassword, edtConfirmPassword;
-    private Button btnRegister;
+    private Button btnRegister, buttonToLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +28,20 @@ public class CustomerRegistrationActivity extends AppCompatActivity {
         edtPassword = findViewById(R.id.edtPassword);
         edtConfirmPassword = findViewById(R.id.edtConfirmPassword);
         btnRegister = findViewById(R.id.btnRegister);
+        buttonToLogin = findViewById(R.id.buttonToLogin);
 
         // Set click listener for the registration button
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 registerCustomer();
+            }
+        });
+
+        buttonToLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CustomerRegistrationActivity.this, LoginActivity.class));
             }
         });
     }
@@ -57,6 +66,9 @@ public class CustomerRegistrationActivity extends AppCompatActivity {
             edtEmail.setText("");
             edtPassword.setText("");
             edtConfirmPassword.setText("");
+
+
         }
+        startActivity(new Intent(CustomerRegistrationActivity.this, LoginActivity.class));
     }
 }

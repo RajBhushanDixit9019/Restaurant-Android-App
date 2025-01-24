@@ -1,57 +1,104 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/background_color">
+    android:gravity="center"
+    android:background="@drawable/layout_background">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvRegisterTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Register"
+            android:textSize="24sp"
+            android:textColor="@color/text_primary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
 
         <EditText
             android:id="@+id/edtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Full Name"
-            android:inputType="textPersonName"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/edittext_background"/>
+            android:hint="@string/full_name"
+            android:autofillHints="name"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:inputType="text"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
 
         <EditText
             android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email Address"
+            android:hint="@string/email_address"
             android:inputType="textEmailAddress"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/edittext_background"/>
+            android:autofillHints="emailAddress"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
 
         <EditText
             android:id="@+id/edtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/password"
+            android:autofillHints="password"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
             android:inputType="textPassword"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/edittext_background"/>
+            android:layout_marginBottom="16dp" />
 
         <EditText
             android:id="@+id/edtConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Confirm Password"
+            android:hint="@string/confirm_password"
+            android:autofillHints="password"
+            android:background="@drawable/input_background"
+            android:padding="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
             android:inputType="textPassword"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/edittext_background"/>
+            android:layout_marginBottom="16dp" />
 
         <Button
             android:id="@+id/btnRegister"
-            android:layout_width="wrap_content"
+            android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:background="@drawable/button_background"
+            android:text="@string/register"
+            android:textColor="@color/button_text_color"
+            android:layout_marginBottom="16dp" />
+
+        <!--Existing User Link-->
+        <TextView
+            android:id="@+id/loginText"
+            android:text="@string/already_have_an_account"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/link_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/buttonToLogin"
+            android:text="@string/login"
             android:textColor="@android:color/white"
-            android:background="@drawable/btn_background"
-            android:layout_gravity="center_horizontal" />
+            android:layout_margin="10dp"
+            android:background="@drawable/button_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
-</ScrollView>
+</LinearLayout>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/rounded_background"
+    android:background="@drawable/layout_background"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp">
@@ -11,9 +10,9 @@
         android:id="@+id/tvLoginTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="@string/login"
         android:textSize="24sp"
-        android:textColor="@color/text_primary"
+        android:textColor="@color/link_color"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="16dp" />
 
@@ -21,7 +20,7 @@
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="@string/username"
         android:background="@drawable/input_background"
         android:padding="12dp"
         android:textColor="@color/text_primary"
@@ -32,7 +31,8 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/password"
+        android:autofillHints="password"
         android:background="@drawable/input_background"
         android:padding="12dp"
         android:textColor="@color/text_primary"
@@ -40,14 +40,35 @@
         android:inputType="textPassword"
         android:layout_marginBottom="16dp"/>
 
-
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_background"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="@color/button_text_color"
         android:layout_marginBottom="16dp"/>
+
+    <!-- New Customer link -->
+    <TextView
+        android:id="@+id/tvNewCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_customer_register_here"
+        android:textSize="14sp"
+        android:textColor="@color/link_color"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/buttonToRegister"
+        android:text="@string/register"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

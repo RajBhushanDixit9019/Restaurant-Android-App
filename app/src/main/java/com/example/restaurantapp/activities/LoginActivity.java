@@ -1,5 +1,6 @@
 package com.example.restaurantapp.activities;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -15,13 +16,16 @@ import com.example.restaurantapp.customer.CustomerDashboardActivity;
 public class LoginActivity extends AppCompatActivity {
 
     private Button btnLogin;
+    private Button buttonToRegister;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
         btnLogin = findViewById(R.id.btnLogin);
+        buttonToRegister = findViewById(R.id.buttonToRegister);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +40,12 @@ public class LoginActivity extends AppCompatActivity {
                 } else if ("customer".equals(userRole)) {
                     startActivity(new Intent(LoginActivity.this, CustomerDashboardActivity.class));
                 }
+            }
+        });
+        buttonToRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, CustomerRegistrationActivity.class));
             }
         });
     }

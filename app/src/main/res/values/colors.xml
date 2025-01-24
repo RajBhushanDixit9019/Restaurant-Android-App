@@ -55,4 +55,5 @@
     <color name="statusBarColor">#388E3C</color> <!-- Dark Green for status bar -->
 
     <color name="colorTextPrimary">#212121</color> <!-- Dark Gray for primary text color -->
+    <color name="link_color">#FDFDFD</color>
 </resources>

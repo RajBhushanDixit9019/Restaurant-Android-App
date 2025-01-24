@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 RoleManager.setUserRole(MainActivity.this, "customer");
-                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                startActivity(new Intent(MainActivity.this, CustomerRegistrationActivity.class));
             }
         });
     }
