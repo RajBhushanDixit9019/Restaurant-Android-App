@@ -11,7 +11,7 @@
         android:id="@+id/orderId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Order ID"
+        android:text="@string/order_id"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -20,7 +20,7 @@
         android:id="@+id/orderStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Status"
+        android:text="@string/status"
         android:textSize="14sp"
         android:paddingTop="8dp"
         android:textColor="#757575" />

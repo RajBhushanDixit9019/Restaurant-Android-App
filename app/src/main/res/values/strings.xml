@@ -22,6 +22,11 @@
     <string name="already_have_an_account">Already have an account</string>
     <string name="new_customer_register_here">New Customer? Register Here</string>
     <string name="username">Username</string>
+    <string name="order_id">Order ID</string>
+    <string name="status">Status</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="reports_will_be_displayed_here">Reports will be displayed here.</string>
 
 
 </resources>

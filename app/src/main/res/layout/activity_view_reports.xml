@@ -10,7 +10,7 @@
         android:id="@+id/tvReports"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reports will be displayed here."
+        android:text="@string/reports_will_be_displayed_here"
         android:textSize="18sp" />
 
 </LinearLayout>
