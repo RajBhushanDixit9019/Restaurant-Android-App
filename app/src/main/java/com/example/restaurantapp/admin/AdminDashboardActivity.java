@@ -11,19 +11,15 @@ import com.example.restaurantapp.R;
 
 public class AdminDashboardActivity extends AppCompatActivity {
 
-    private Button btnManageMenu;
-    private Button btnManageUsers;
-    private Button btnViewReports;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_dashboard);
 
         // Initialize buttons
-        btnManageMenu = findViewById(R.id.btnManageMenu);
-        btnManageUsers = findViewById(R.id.btnManageUsers);
-        btnViewReports = findViewById(R.id.btnViewReports);
+        Button btnManageMenu = findViewById(R.id.btnManageMenu);
+        Button btnManageUsers = findViewById(R.id.btnManageUsers);
+        Button btnViewReports = findViewById(R.id.btnViewReports);
 
         // Set click listener for managing menu
         btnManageMenu.setOnClickListener(new View.OnClickListener() {

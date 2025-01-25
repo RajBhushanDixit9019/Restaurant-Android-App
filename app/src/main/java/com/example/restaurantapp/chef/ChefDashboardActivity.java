@@ -11,17 +11,14 @@ import com.example.restaurantapp.R;
 
 public class ChefDashboardActivity extends AppCompatActivity {
 
-    private Button btnViewOrders;
-    private Button btnMarkOrderComplete;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chef_dashboard);
 
         // Initialize buttons
-        btnViewOrders = findViewById(R.id.btnViewOrders);
-        btnMarkOrderComplete = findViewById(R.id.btnMarkOrderComplete);
+        Button btnViewOrders = findViewById(R.id.btnViewOrders);
+        Button btnMarkOrderComplete = findViewById(R.id.btnMarkOrderComplete);
 
         // Set click listener for viewing orders
         btnViewOrders.setOnClickListener(new View.OnClickListener() {
