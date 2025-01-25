@@ -2,34 +2,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="16dp"
+    android:padding="10dp"
     android:background="@drawable/layout_background">
 
-    <Button
-        android:id="@+id/btnManageMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Manage Menu"
-        android:textColor="@android:color/white"
-        android:background="@drawable/btn_background"
-        android:layout_marginBottom="16dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/btnManageUsers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Manage Users"
-        android:textColor="@android:color/white"
-        android:background="@drawable/btn_background"
-        android:layout_marginBottom="16dp" />
+        <Button
+            android:id="@+id/btnManageMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:layout_margin="12dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background" />
 
-    <Button
-        android:id="@+id/btnViewReports"
+        <Button
+            android:id="@+id/btnManageStaff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Staff"
+            android:layout_margin="12dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/btnViewReports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reports"
+            android:layout_margin="12dp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/FL"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View Reports"
-        android:textColor="@android:color/white"
-        android:background="@drawable/btn_background"
-        android:layout_marginBottom="16dp" />
+        android:layout_height="wrap_content"/>
 </LinearLayout>
