@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".admin.ManageMenu">
+    tools:context=".admin.ManageMenu"
+    android:background="@drawable/layout_background">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

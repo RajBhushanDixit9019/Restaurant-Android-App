@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context=".customer.OrderHistory">
+    tools:context=".customer.OrderHistory"
+    android:background="@drawable/layout_background">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

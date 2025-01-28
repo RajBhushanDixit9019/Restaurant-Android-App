@@ -1,26 +1,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:gravity="center"
     android:padding="16dp"
-    android:background="@drawable/layout_background">
+    android:background="@drawable/layout_background"
+    tools:context=".chef.ChefDashboardActivity">
 
-    <Button
-        android:id="@+id/btnViewOrders"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Orders"
-        android:textColor="@android:color/white"
-        android:background="@drawable/btn_background"
-        android:layout_marginBottom="16dp" />
+        android:weightSum="2">
 
-    <Button
-        android:id="@+id/btnMarkOrderComplete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mark Order Complete"
-        android:textColor="@android:color/white"
-        android:background="@drawable/btn_background"
-        android:layout_marginBottom="16dp" />
+        <Button
+            android:id="@+id/btnViewOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Orders"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_background"
+            android:layout_margin="15dp" />
+
+        <Button
+            android:id="@+id/btnMarkOrderComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mark Order Complete"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_background"
+            android:layout_margin="15dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/FL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </LinearLayout>
